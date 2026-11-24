@@ -1890,3 +1890,10 @@ footer {
 .row-actions .reject-btn {
   font-size: 14px;
 }
+.move-status select,
+.move-status select option {
+  font-size: 16px;
+}
+.move-status select option {
+  padding: 6px 10px;
+}
