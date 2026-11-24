@@ -13,7 +13,6 @@ import {
   Plus,
   Search,
   ShieldCheck,
-  Sparkles,
   Sun,
   Users,
 } from "lucide-react";
@@ -253,16 +252,12 @@ export default function App() {
         </div>
         <div className="sidebar-bottom">
           <div className="help-card">
-            <span className="spark-icon">
-              <Sparkles size={17} />
-            </span>
             <b>
               A smoother day
               <br />
               starts here.
             </b>
             <span>Keep your schedule feeling light.</span>
-            <div className="tiny-flower">✳</div>
           </div>
           <div className="profile">
             <div className="profile-avatar">{initials(user.name)}</div>
@@ -334,13 +329,11 @@ export default function App() {
             <p>Your day, thoughtfully organized. One appointment at a time.</p>
             <button className="add-btn" onClick={() => setModal("appointment")}>
               <Plus size={17} /> New appointment{" "}
-              <span className="add-spark">✦</span>
             </button>
           </div>
           <div className="welcome-visual">
             <div className="blob blob-a" />
             <div className="blob blob-b" />
-            <div className="sunburst">✳</div>
             <div className="visual-note">
               <span className="note-small-icon">
                 <Clock3 size={16} />
@@ -373,7 +366,6 @@ export default function App() {
             </div>
             <strong>{activeCount.toString().padStart(2, "0")}</strong>
             <small>active appointments today</small>
-            <div className="stat-decoration">✳</div>
           </div>
           <div className="stat-card stat-blue">
             <div className="stat-top">
@@ -384,7 +376,6 @@ export default function App() {
             </div>
             <strong>{pendingCount.toString().padStart(2, "0")}</strong>
             <small>pending approval</small>
-            <div className="stat-decoration">◌</div>
           </div>
           <div className="stat-card stat-green">
             <div className="stat-top">
@@ -508,7 +499,6 @@ export default function App() {
             </div>
           ) : (
             <div className="empty">
-              <div className="empty-art">✳</div>
               <h3>
                 {query
                   ? "No matching appointments"
@@ -532,7 +522,7 @@ export default function App() {
         </section>
         <footer>
           <span>
-            Make today a little easier <b>✳</b>
+            Make today a little easier
           </span>
           <span>
             BOOKEDUP <i>·</i> APPOINTMENTS, MADE EASY

@@ -50,7 +50,6 @@ export default function LoginScreen({ onSignIn, theme, setTheme }) {
           <div className="auth-deco">
             <div className="blob-a" />
             <div className="blob-b" />
-            <span>✳</span>
           </div>
         </div>
         <form className="auth-card" onSubmit={submit}>
