@@ -6,7 +6,7 @@
 
 A role-aware scheduling workspace for independent service businesses, built with the MERN stack.
 
-**[Live demo](#)** · [Explore the screenshots](#screenshots) · [Run locally](#run-locally)
+**[Live demo](https://bookedup-two.vercel.app/)** · [Explore the screenshots](#screenshots) · [Run locally](#run-it-locally-with-git-bash)
 
 > **Owner-led approvals** · **Worker requests** · **A colorful, responsive schedule**
 
@@ -51,6 +51,15 @@ The screenshots below show each distinct screen and role-specific workflow in th
 
 ### Owner books a confirmed appointment
 ![Owner appointment form](./screenshots/owner-add-appointment.png)
+
+## Try the live demo
+
+Open [BookedUp](https://bookedup-two.vercel.app/) and sign in with the demo owner account:
+
+- **Email:** [mohamedkhabou@example.com](mailto:mohamedkhabou@example.com)
+- **Password:** `MohamedKhabou123`
+
+From the owner workspace, use **Add worker** to create worker accounts and try the worker workflow: sign in as a worker, submit an appointment for review, then return as the owner to approve or reject it. These are shared demo credentials and a shared demo workspace, so changes may be visible to other visitors. Do not reuse this password for any personal account.
 
 ## Roles and workflow
 
