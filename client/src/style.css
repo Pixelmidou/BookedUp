@@ -1853,3 +1853,40 @@ footer i {
     font-size: 12px;
   }
 }
+
+/* Keep account labels, attribution, and every appointment action readable. */
+.activity-line,
+.client-note,
+.client-details p,
+.profile b,
+.profile small,
+.user-chip,
+.user-chip small,
+.signout-small,
+.approval-note,
+.staff-button,
+.row-actions,
+footer {
+  font-size: 14px;
+}
+.client-heading h3 {
+  font-size: 17px;
+}
+.profile small,
+.user-chip small,
+.activity-line,
+.client-note {
+  color: #777078;
+}
+.approval-note {
+  padding: 11px 12px;
+}
+.staff-button {
+  min-height: 36px;
+  padding: 0 12px;
+}
+.row-actions .move-status,
+.row-actions .approve-btn,
+.row-actions .reject-btn {
+  font-size: 14px;
+}
