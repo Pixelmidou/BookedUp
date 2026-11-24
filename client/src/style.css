@@ -16,7 +16,6 @@ body {
   margin: 0;
   min-width: 320px;
   font-size: 16px;
-  zoom: 1.08;
 }
 button,
 input,
@@ -726,11 +725,11 @@ textarea {
   display: block;
 }
 .time-col b {
-  font-size: 11px;
+  font-size: 13px;
   color: #59515b;
 }
 .time-col span {
-  font-size: 9px;
+  font-size: 11px;
   color: #aaa0a1;
   margin-top: 4px;
 }
@@ -801,7 +800,7 @@ textarea {
   gap: 9px;
 }
 .client-heading h3 {
-  font: 700 12px Manrope;
+  font: 700 14px Manrope;
   color: #403a44;
   margin: 0;
 }
@@ -810,8 +809,8 @@ textarea {
   align-items: center;
   gap: 5px;
   border-radius: 20px;
-  padding: 3px 7px;
-  font-size: 8px;
+  padding: 4px 8px;
+  font-size: 10px;
   font-weight: 600;
   background: #f2efe8;
   color: #8c8276;
@@ -835,7 +834,7 @@ textarea {
   color: #b76b63;
 }
 .client-details p {
-  font-size: 10px;
+  font-size: 13px;
   color: #8e858c;
   margin: 5px 0 0;
 }
@@ -845,7 +844,7 @@ textarea {
 }
 .client-note {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   color: #ae9b8e;
   margin-top: 4px;
 }
@@ -860,7 +859,7 @@ textarea {
   align-items: center;
   gap: 4px;
   color: #b0a8a2;
-  font-size: 8px;
+  font-size: 12px;
   cursor: pointer;
 }
 .move-status select {
