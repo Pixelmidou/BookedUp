@@ -20,37 +20,16 @@ The schedule is the center of the experience: bookings are arranged by time, ser
 
 ## Screenshots
 
-The screenshots below show each distinct screen and role-specific workflow in the current app.
+A quick look at the three key views: sign-in, the owner’s schedule, and the appointment form.
 
 ### Sign-in
 ![BookedUp sign-in screen](./screenshots/sign-in.png)
 
-### Owner workspace — today
-![Owner appointment schedule](./screenshots/owner-today.png)
+### Owner schedule
+![BookedUp owner appointment schedule](./screenshots/owner-today.png)
 
-### Owner workspace — pending approvals
-![Owner reviewing pending appointments](./screenshots/owner-pending-approvals.png)
-
-### Owner workspace — upcoming appointments
-![Owner upcoming appointment view](./screenshots/owner-upcoming.png)
-
-### Owner workspace — full schedule
-![Owner full schedule view](./screenshots/owner-full-schedule.png)
-
-### Owner workspace — dark theme
-![Owner schedule in dark theme](./screenshots/owner-dark-theme.png)
-
-### Add a worker account
-![Owner creating a worker account](./screenshots/add-worker.png)
-
-### Worker workspace
-![Worker appointment schedule](./screenshots/worker-today.png)
-
-### Worker submits an appointment for review
-![Worker appointment submission form](./screenshots/worker-submit-request.png)
-
-### Owner books a confirmed appointment
-![Owner appointment form](./screenshots/owner-add-appointment.png)
+### Add an appointment
+![BookedUp appointment form](./screenshots/add-appointment.png)
 
 ## Try the live demo
 
