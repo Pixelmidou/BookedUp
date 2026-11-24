@@ -1779,3 +1779,77 @@ footer i {
     text-overflow: ellipsis;
   }
 }
+
+/* Comfortable reading sizes for schedule details and small controls. */
+.side-label,
+.eyebrow,
+.stat-top,
+.day-heading,
+.breadcrumb,
+.date-stamp,
+.open-status {
+  font-size: 12px;
+}
+.side-note small,
+.help-card > span:not(.spark-icon),
+.profile b,
+.profile small,
+.welcome-copy > p,
+.stat-card > small,
+.view-tabs button,
+.search input,
+.status-filter select,
+.day-heading > span:last-child,
+.activity-line,
+.client-note,
+.move-status,
+.approve-btn,
+.reject-btn {
+  font-size: 13px;
+}
+.side-link,
+.side-note b,
+.client-details p,
+.time-col b,
+.status-pill,
+.day-nav .day-current {
+  font-size: 14px;
+}
+.time-col span {
+  font-size: 12px;
+}
+.client-heading h3 {
+  font-size: 16px;
+}
+.client-details p {
+  line-height: 1.45;
+}
+.client-note,
+.activity-line {
+  line-height: 1.4;
+}
+.move-status {
+  font-weight: 600;
+  color: #786f72;
+}
+.approve-btn,
+.reject-btn {
+  min-height: 34px;
+  padding: 0 11px;
+}
+.status-filter select {
+  font-size: 13px;
+}
+.day-heading {
+  font-size: 12px;
+}
+@media (max-width: 680px) {
+  .approve-btn,
+  .reject-btn {
+    min-height: 32px;
+    font-size: 12px;
+  }
+  .activity-line {
+    font-size: 12px;
+  }
+}
